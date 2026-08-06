@@ -19,9 +19,6 @@ $(call inherit-product, vendor/sony/dolby/sonydolby.mk)
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-# Dolby Atmos
-$(call inherit-product, vendor/sony/dolby/dolby.mk)
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
